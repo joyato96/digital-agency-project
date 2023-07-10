@@ -165,3 +165,30 @@
     justify-content: center;
     gap: 15px;
 }
+/* footer container related styles */
+.footer-container{
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    background-image: url('asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    color: white;
+
+
+}
+.footer-item{
+    list-style: none;
+}
+.footer-title{
+    padding-bottom: 15px;
+}
+.logo-desciption{
+    width: 50%;
+}
