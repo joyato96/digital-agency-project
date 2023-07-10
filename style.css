@@ -112,15 +112,16 @@
 }
 /* appointment container related styles */
 .appointment-container{
+    width: 75%;
+    padding: 20px;
+    background-color: rgb(245, 44, 44);
     display: flex;
-    justify-content: space-around;
-    width: 80%;
-    margin: auto;
-    background-color:rgba(228, 25, 25, 0.8);
-    border-radius: 10px;
-    margin-top: -30px;
+    justify-content: center;
     align-items: center;
-    
+    margin: auto;
+    border-radius: 25px;
+    margin-top: -80px;
+    color: white;
 }
 .phone-call{
     display: flex;
@@ -133,6 +134,7 @@
     width: 80%;
     margin: auto;
     padding: 10px;
+
 }
 .blog-title{
     text-align: center;
@@ -143,4 +145,23 @@
     text-align: center;
     margin-bottom: 50px;
     font-size: 25px;
+}
+.card{
+    width: 220px;
+    height: 300px;
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blog-container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
